@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background: #b44952;
+    
+}
 *{
     box-sizing: border-box;
     margin: 0;
@@ -9,6 +15,7 @@
 html{
     font-size: 10px;
     font-family:  'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -83,8 +90,8 @@ width: 400px;
 }
 
 .contanier{
-   background-color: #86373E;
-   padding: 50px;
+   background-color: #17222B;
+   padding: 110px;
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -94,20 +101,22 @@ width: 400px;
 .information-about-me{
     display: flex;
     align-items: center;
-    
+      
 }
 .about-me h1{
 font-size: 5rem;
 color: #F2F2F2;
 margin-bottom: 50px;
+text-shadow: 0px 0px 100px #e79099; 
 }
 
 .about-me p{
     font-size: 2.3rem;
     width: 700px;
-    color: #F2F2F2;
     font-weight: 500;
-    
+    color: #F2F2F2;
+    text-shadow: 2px 1px 2px #86373E; 
+
 }
 .text{
     width: auto;
@@ -117,20 +126,23 @@ margin-bottom: 50px;
     border-radius: 20px;
     box-shadow: 0px 0px 100px #fbf8f027;
     text-shadow: 0px 0px 100px #c87f85c1;
+    border: 1px solid #b44952;
 }
 
 .text h1{
 font-size: 4rem;
 margin-bottom: 50px;
+text-shadow: 0px 0px 100px #e79099;
 }
 
 .text p{
-   
+    color: #ffffff;
     font-size: 2rem;
     width: 500px;
     font-weight: 500;
     margin-bottom: 50px;
     text-shadow: none;
+    
 }
 
 .text ul li{
@@ -139,20 +151,22 @@ margin-bottom: 50px;
     text-decoration:none;
     margin: 20px 0px;
     margin-left: 50px;
+    color: #ff8e97;
+    list-style-type:none;
+    
 }
+
 
 .bottom-projects{
     display: flex;
     align-items: center;
     justify-content: center;
     padding-bottom: 100px;
-    
-
+    background-color: #17222B;
 }
 
 .projects_section{
     position: relative;
-    background-color: #17222B;
     padding: 50px;
     width: 90% ;
     height: 800px;
@@ -161,8 +175,7 @@ margin-bottom: 50px;
     overflow: hidden;
     margin-top: 100px;
     border-radius: 30px;
-    box-shadow: 0px 0px 100px #5776e560;
-    
+    box-shadow: 0px 0px 200px #5776e560;   
 }
 
 .projects_section button{
@@ -199,7 +212,7 @@ margin-bottom: 50px;
 }
 
 .list-sec ul li{
-    color: #FFFFFF;
+    color: #F2F2F2;
     padding: 100px;
     margin-right: 50px;
     width: 90%;
@@ -211,6 +224,10 @@ margin-bottom: 50px;
     align-items: center;
     
 }
+.list-sec h1{
+    text-shadow: 0px 0px 50px #eaa9af;
+
+}
 
 .list-sec ul li p{
     width: 80%;
@@ -219,19 +236,6 @@ margin-bottom: 50px;
     
 }
 
-.list-sec ul li a{
-    color: #F2F2F2;
-    text-decoration: none;
-    font-size: 2rem;
-    transition: ease-in-out 0.8s all;
-    margin-left: 50px;
-}
-
-.list-sec ul li a:hover{
-    color: #b44952;
-    font-size: 2.07rem;
-    text-shadow: 0px 0px 50px #eaa9af;
-}
 
 .links-my-accounts{
     background-color: #17222B;
@@ -245,30 +249,36 @@ margin-bottom: 50px;
 }
 
 .links-my-accounts .Accounts, .contacts_us{
+    background-color: #17222B;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom:5px solid #b44952;
     height: 85%;
     padding: 0px 20px;
-    box-shadow: 0px 100px 50px #eaa9b07d;
-    border-radius: 50px 50px 0px 0px;
+   
 }
 
 .links-my-accounts .Accounts h1, .links-my-accounts .contacts_us h1{
     margin-right:50px ;
     color: #F2F2F2;
-    text-shadow: 0px 0px 100px #eaa9af;
+    text-shadow: 0px 0px 100px #e79099;
+    
 }
 
-.links-my-accounts .links a, .contacts_us a{
+.links-my-accounts .links a, .contacts_us a, .list-sec ul li a{
     color: #ffcdd2;
     font-size: 1.5rem;
     text-decoration: none;
     padding: 0px 10px;
-    text-shadow: 0px 0px 50px #eaa9b089;
+    
+}
+
+.list-sec ul li a{
+    font-size: 2rem;
 }
 
 .links-my-accounts .links a:hover,  .contacts_us a:hover{
     color: #fc6875;
+    text-decoration: underline;
 }
