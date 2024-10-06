@@ -166,29 +166,39 @@ text-shadow: 0px 0px 100px #e79099;
 }
 
 .projects_section{
+    background-color: #23292e;
     position: relative;
     padding: 50px;
-    width: 90% ;
+    width: 80% ;
     height: 800px;
     display: flex;
     align-items: center;
     overflow: hidden;
     margin-top: 100px;
     border-radius: 30px;
-    box-shadow: 0px 0px 200px #5776e560;   
+    box-shadow: 0px 0px 150px #b4495242;
+    border: 3px solid #b44952;
 }
 
 .projects_section button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
-    padding: 0;
-    right: 0;
+    right: 10px;
     top: 50%;
     color: #FFFFFF;
-    background-color: #17222B;
     border: none;
     outline: none;
     cursor: pointer;
     z-index: 2;
+    color: #86373E;
+    border-radius: 50%;
+    transition: 0.3s all;
+}
+
+.projects_section button:hover{
+    box-shadow:0px 0px 100px #b4495271;
 }
 
 .projects_section button i{
@@ -212,26 +222,25 @@ text-shadow: 0px 0px 100px #e79099;
 }
 
 .list-sec ul li{
-    color: #F2F2F2;
+    min-width: 25%;
+    color: #f2f2f2;
     padding: 100px;
     margin-right: 50px;
-    width: 90%;
     font-size: 2rem;
     font-weight: 600;
     list-style-type: none;
-    display: block;
+    display: inline-block;
     justify-content: space-between;
     align-items: center;
     
 }
 .list-sec h1{
     text-shadow: 0px 0px 50px #eaa9af;
-
 }
 
 .list-sec ul li p{
-    width: 80%;
-    font-size: 2.5rem;
+    width: 75%;
+    font-size: 2rem;
     margin: 50px 0px;
     
 }
@@ -262,7 +271,7 @@ text-shadow: 0px 0px 100px #e79099;
 .links-my-accounts .Accounts h1, .links-my-accounts .contacts_us h1{
     margin-right:50px ;
     color: #F2F2F2;
-    text-shadow: 0px 0px 100px #e79099;
+    text-shadow: 0px 0px 30px #e79099;
     
 }
 
@@ -276,6 +285,8 @@ text-shadow: 0px 0px 100px #e79099;
 
 .list-sec ul li a{
     font-size: 2rem;
+    color: #ce404c;
+    cursor: pointer;
 }
 
 .links-my-accounts .links a:hover,  .contacts_us a:hover{
