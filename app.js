@@ -1,6 +1,6 @@
 let projects_div = document.getElementById(`list_sec`);
-let left = 0;
 let right = -300;
+let left = 0;
 document.getElementById(`scroll`).onclick = function () {
     if(right === 0 && left === -300){
         left = 0; right = -300;
