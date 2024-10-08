@@ -56,23 +56,3 @@ document.getElementById('scroll').onclick = function () {
     This ensures smooth scrolling through the various project categories.
 </p>
 
-<h2>How to Run the Project</h2>
-<ol>
-    <li>Clone or download the project to your local machine.</li>
-    <li>Open the <code>index.html</code> file in any modern web browser.</li>
-    <li>To view or modify the styles, open the <code>style.css</code> file.</li>
-    <li>JavaScript interactions are located in the <code>app.js</code> file.</li>
-</ol>
-
-<h2>Future Enhancements</h2>
-<ul>
-    <li>Add a blog section for Moustafa to share insights on front-end development.</li>
-    <li>Implement backend features to handle direct contact form submissions.</li>
-    <li>Improve SEO to attract potential clients.</li>
-</ul>
-
-<h2>License</h2>
-<p>
-    This project is free to use for educational or portfolio purposes.
-</p>
-
