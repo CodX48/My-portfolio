@@ -3,7 +3,7 @@
 
 <h2>Overview</h2>
 <p>
-    This is the personal portfolio website of <strong>Moustafa</strong>, a front-end developer. The site showcases Moustafa's expertise in front-end development, 
+    This is the personal portfolio website of <strong>Moustafa: Me</strong>, a front-end developer. The site showcases Moustafa's expertise in front-end development, 
     with projects spanning industries such as Restaurants, E-commerce, Fitness, Education, and more. 
     The website features a modern, responsive design with a clean and intuitive interface, built using HTML, CSS, and JavaScript.
 </p>
