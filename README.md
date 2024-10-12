@@ -1,4 +1,3 @@
-hello
 <h1>My Portfolio Website</h1>
 
 <h2>Overview</h2>
